@@ -149,6 +149,7 @@ clearTrash() {
     \rm -rf ~/.Trash/*
 }
 
+# GitKraken
 kraken () {
     killall GitKraken
     /Applications/GitKraken.app/Contents/MacOS/GitKraken -p "$(git rev-parse --show-toplevel)" &>/dev/null &
